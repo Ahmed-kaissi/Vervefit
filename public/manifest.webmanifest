@@ -1,0 +1,56 @@
+{
+  "id": "/",
+  "name": "VerveFit",
+  "short_name": "VerveFit",
+  "description": "Eat better. Train smarter. Stay consistent. Log meals, track water and habits, follow a training program and watch your progress.",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#4fae6a",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    {
+      "src": "/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "url": "/dashboard",
+      "description": "Log meals and see today's calories"
+    },
+    {
+      "name": "Train",
+      "short_name": "Train",
+      "url": "/train",
+      "description": "Open today's training session"
+    },
+    {
+      "name": "Coach",
+      "short_name": "Coach",
+      "url": "/coach",
+      "description": "Ask the VerveFit coach"
+    }
+  ]
+}

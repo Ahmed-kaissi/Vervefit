@@ -1,0 +1,30 @@
+# Dependencies and build output — reinstalled/rebuilt inside the image
+node_modules
+dist
+isolate
+.bun
+
+# VCS and tooling
+.git
+.gitignore
+.github
+
+# Secrets — never bake credentials into an image layer
+.env
+.env.*
+!.env.example
+*.pem
+*-key.json
+service-account*.json
+
+# Platform / editor noise
+.vscode
+.idea
+.DS_Store
+*.log
+npm-debug.log*
+bun.lockb
+coverage
+.claude
+README.md
+integrations.md

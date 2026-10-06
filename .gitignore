@@ -1,0 +1,22 @@
+# Local secrets — never commit these. Rotate anything that has ever been
+# committed: RESEND_API_KEY, DOTENV_PRIVATE_KEY_*, DEEPSEEK_API_KEY,
+# FREE_AI_API_KEY.
+.env
+.env.local
+.env.keys
+.env.*.local
+*.pem
+*-key.json
+service-account*.json
+
+# Keep the template
+!.env.example
+
+node_modules
+dist
+coverage
+*.log
+src/convex/_generated
+.convex
+
+.trigger
