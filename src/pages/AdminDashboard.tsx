@@ -1,6 +1,5 @@
 import { useAuth } from "@/hooks/use-auth";
 import { AppHeader } from "@/components/vervefit/AppHeader";
-import { TriggerRunStatus } from "@/components/admin/TriggerRunStatus";
 
 function userName(user: unknown): string | null {
   if (typeof user !== "object" || user === null) return null;
@@ -25,7 +24,6 @@ export default function AdminDashboard() {
           </h1>
         </header>
 
-        <TriggerRunStatus userId={typeof user === "object" && user !== null ? String((user as { id?: string }).id ?? "") : ""} />
       </main>
     </div>
   );

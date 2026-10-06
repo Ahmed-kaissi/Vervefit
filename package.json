@@ -26,7 +26,11 @@
     "@radix-ui/react-collapsible": "^1.1.12",
     "@radix-ui/react-context-menu": "^2.2.16",
     "@radix-ui/react-dialog": "^1.1.15",
+<<<<<<< HEAD
     "@radix-ui/react-dropdown-menu": "^2.1.25",
+=======
+    "@radix-ui/react-dropdown-menu": "2.1.15",
+>>>>>>> 91b3dd5 (Fix build and remove Trigger.dev demo component)
     "@radix-ui/react-hover-card": "^1.1.15",
     "@radix-ui/react-label": "^2.1.8",
     "@radix-ui/react-menubar": "^1.1.16",
@@ -67,6 +71,7 @@
     "react-resizable-panels": "^3.0.6",
     "react-router": "^7.10.0",
     "recharts": "^2.15.4",
+    "resend": "^6.32.1",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4.1.17",
@@ -93,6 +98,7 @@
   },
   "allowScripts": {
     "core-js@3.50.0": true,
-    "esbuild@0.27.0": true
+    "esbuild@0.27.0": true,
+    "resend@6.32.1": true
   }
 }
