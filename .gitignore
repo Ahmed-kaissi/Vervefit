@@ -16,7 +16,7 @@ node_modules
 dist
 coverage
 *.log
-src/convex/_generated
+# src/convex/_generated
 .convex
 
 .trigger
